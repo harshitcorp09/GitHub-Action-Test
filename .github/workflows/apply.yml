@@ -24,7 +24,7 @@ jobs:
       - name: Configure Terraform CLI credentials
         run: |
           cat > .terraformrc <<EOF
-          credentials "terraform.your-domain.com" {
+          credentials "tfe-docker-fdo2.harshit-dixit.sbx.hashidemos.io" {
             token = "${TFE_TOKEN}"
           }
           EOF
